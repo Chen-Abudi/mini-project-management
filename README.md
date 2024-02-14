@@ -17,8 +17,9 @@ This a practice project in React, showcasing a project management web app.
 
 - React
 - JavaScript
-- Tailwind CSS
+- TailwindCSS
 - Vite
+- Reusable Components
 
 ---
 
