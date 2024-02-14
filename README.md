@@ -11,7 +11,7 @@ Developed by **`Grace Chen Abudi`** 👩🏽‍💻
 
 ## 🔎 Intro:
 
-This a practice project showcasing a project management.
+This a practice project in React, showcasing a project management web app.
 
 ## 🧰 🛠️ Tech Stack & Techniques:
 
