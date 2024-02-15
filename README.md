@@ -20,6 +20,9 @@ This a practice project in React, showcasing a project management web app.
 - TailwindCSS
 - Vite
 - Reusable Components
+- Refs & Forward Refs
+- Portal
+- React Hooks
 
 ---
 
