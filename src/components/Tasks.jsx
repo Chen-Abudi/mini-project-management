@@ -1,0 +1,32 @@
+import NewTask from "./NewTask.jsx";
+
+function Tasks({ tasks, onAdd, onDelete }) {
+  return (
+    <section>
+      <h2 className="text-2xl font-bold text-[#233142] mb-4">Tasks</h2>
+      <NewTask onAdd={onAdd} />
+      {tasks.length === 0 && (
+        <p className="text-stone-800 my-5">
+          This project does not have any tasks yet.
+        </p>
+      )}
+      {tasks.length > 0 && (
+        <ul className="p-4 mt-8 rounded-md bg-[#EBF7FD]">
+          {tasks.map((task) => (
+            <li className="flex justify-between my-4" key={task.id}>
+              <span>{task.text}</span>
+              <button
+                className="text-stone-700 hover:text-red-500"
+                onClick={() => onDelete(task.id)}
+              >
+                Clear
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
+export default Tasks;

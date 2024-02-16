@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 function Sidebar({
   onStartAddProject,
@@ -20,7 +20,7 @@ function Sidebar({
             "w-full text-left px-2 py-1 rounded-sm my-3 bg-[#EBF7FD] hover:text-[#233142] hover:bg-[#A5DEF1]";
 
           if (project.id === selectedProjectId) {
-            cssClasses += " bg-[#233142] text-[#A5DEF1]"; // Or "bg-stone-800 text-stone-200"
+            cssClasses += " bg-[#233142] text-[#233142]"; // Or "bg-stone-800 text-stone-200"
           } else {
             cssClasses += " text-[#36506C]";
           }
