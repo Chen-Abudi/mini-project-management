@@ -5,24 +5,30 @@ Developed by **`Grace Chen Abudi`** 👩🏽‍💻
 ## 📣 Overview:
 
 - Intro
-- Tech Stack & Techniques
+- Tech Stack
+- Techniques
 - How to Get Started
 - Additional Link
 
 ## 🔎 Intro:
 
-This a practice project in React, showcasing a project management web app.
+This a frontend practice project in React, showcasing a project management web app.
 
-## 🧰 🛠️ Tech Stack & Techniques:
+## 🧰 Tech Stack:
 
 - React
+- React Hooks
 - JavaScript
 - TailwindCSS
 - Vite
+
+## 🛠️ Techniques:
+
 - Reusable Components
 - Refs & Forward Refs
 - Portal
-- React Hooks
+- Prop Drilling
+- Validate
 
 ---
 
